@@ -1,0 +1,4 @@
+/build/
+
+# Database file
+*.db
