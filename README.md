@@ -9,6 +9,16 @@ git clone https://github.com/MBeliou/go-api-template.git
 ```
 or manually through the github website.
 
+To run:
+```bash
+    # This will run on the default port 1323 with mydb.db 
+    # as the database file
+    go run .
+
+    # Change the port and the databse file
+    go run --port=8080 --database=otherdb.db
+```
+
 ## Echo
 
 Find out more about [Echo](https://echo.labstack.com/), the web framework used here.
@@ -20,5 +30,6 @@ Find out more about  [Storm](https://github.com/asdine/storm#options), a toolkit
 ___
 ## TODO
 * [ ] Add Tests
+* [ ] Better handling of the JWT secret signing key
 * [ ] Use Transactions where needed
 * [ ] Make a frontend
